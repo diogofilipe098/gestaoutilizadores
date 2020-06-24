@@ -18,9 +18,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/users', UtilizadoresController);
 
 let port = 3000;
-app.listen(port, () => {
- console.log('Servidor em execução no port: ' + port);
-});
+app.listen(process.env.PORT || port)
 
 
 
