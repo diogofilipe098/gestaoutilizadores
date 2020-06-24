@@ -2,7 +2,7 @@
   "requires": true,
   "lockfileVersion": 1,
   "scripts": {
-    "start": "npm install && node app.js"
+    "start": "npm install http-errors && npm install cookie-parser && npm install amqplib && npm install morgan && npm install mongoose && npm install express && node app.js"
   },
   "dependencies": {
     "accepts": {
